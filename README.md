@@ -39,7 +39,7 @@ Ao migrar uma integração, a documentação oficial pede para conferir:
 | Item | O que fazer |
 |---|---|
 | Modelo | `gpt-6.2-astra` ou `gpt-6.2-sol` |
-| Esforço | começar em `medium`; quem usa `none` ou `minimal` passa para `low` |
+| Esforço | em integração nova, começar em `medium`; quem usa `none` ou `minimal` passa para `low` |
 | Ferramentas | usar a Responses API |
 | Parâmetros | remover `temperature`, `top_p` e `top_logprobs`; em Chat Completions, também `logprobs`; em Responses, tirar `message.output_text.logprobs` de `include` |
 | Raciocínio | não editar o início da conversa entre respostas |

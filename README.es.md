@@ -12,7 +12,7 @@ GPT-6.2 rinde más es una colección viva de consejos para aprovechar mejor Astr
 
 **https://inematds.github.io/gpt62-rende-mais/guia/es/**
 
-Los consejos están en [`DICAS.md`](DICAS.md) y los textos listos para usar, en [`prompts/`](prompts/).
+Los consejos están en [`DICAS.md`](DICAS.md) y los textos listos para usar, en [`prompts/`](prompts/) (ambos en portugués; el texto en español está en la guía).
 
 ## Pídele a tu IA que analice tu caso
 
@@ -39,7 +39,7 @@ Al migrar una integración, la documentación oficial pide verificar lo siguient
 | Elemento | Qué hacer |
 |---|---|
 | Modelo | `gpt-6.2-astra` o `gpt-6.2-sol` |
-| Esfuerzo | empezar en `medium`; quienes usan `none` o `minimal` deben pasar a `low` |
+| Esfuerzo | en una integración nueva, empezar en `medium`; quienes usan `none` o `minimal` deben pasar a `low` |
 | Herramientas | usar la Responses API |
 | Parámetros | quitar `temperature`, `top_p` y `top_logprobs`; en Chat Completions, también `logprobs`; en Responses, quitar `message.output_text.logprobs` de `include` |
 | Razonamiento | no editar el inicio de la conversación entre respuestas |
@@ -51,7 +51,7 @@ Para repetir la prueba, desde la carpeta del proyecto y con Codex CLI autenticad
 teste/medir_bloqueio.sh 3 teste/nova-rodada
 ```
 
-El resultado del 18/11/2026 está en [`teste/PROVA.md`](teste/PROVA.md).
+El resultado del 18/11/2026 está en [`teste/PROVA.md`](teste/PROVA.md) (en portugués).
 
 ## El proceso, de principio a fin
 

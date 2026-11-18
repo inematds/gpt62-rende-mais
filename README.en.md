@@ -1,18 +1,18 @@
-# GPT-6.2 gets more done
+# GPT-6.2 Does More
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![GPT-6.2 gets more done](guia/assets/banner-en.jpg)](https://inematds.github.io/gpt62-rende-mais/guia/en/)
+[![GPT-6.2 Does More](guia/assets/banner-en.jpg)](https://inematds.github.io/gpt62-rende-mais/guia/en/)
 
 ## What it is
 
-GPT-6.2 gets more done is a living collection of tips for getting better results with Astra and Sol, OpenAI’s new models. It’s for people who delegate work to AI and want fewer interruptions and surprises. Each tip explains what to do, what kind of use it’s suited for, and, when it makes sense, includes ready-to-use text you can paste. The collection is based on official OpenAI publications, and new tips are added as they’re verified. Just read and copy.
+GPT-6.2 Does More is a living collection of tips for getting better results with Astra and Sol, OpenAI’s new models. It’s for people who delegate work to AI and want fewer interruptions and surprises. Each tip explains what to do, what kind of use it’s suited for, and, when it makes sense, includes ready-to-use text you can paste. The collection is based on official OpenAI publications, and new tips are added as they’re verified. Just read and copy.
 
 ## 📖 Guide
 
 **https://inematds.github.io/gpt62-rende-mais/guia/en/**
 
-The tips are in [`DICAS.md`](DICAS.md), and the ready-to-use text is in [`prompts/`](prompts/).
+The tips are in [`DICAS.md`](DICAS.md), and the ready-to-use text is in [`prompts/`](prompts/) (both in Portuguese; the English text is in the guide).
 
 ## Ask your AI to analyze your situation
 
@@ -23,10 +23,10 @@ Read the tips at https://github.com/inematds/gpt62-rende-mais/blob/main/DICAS.md
 ## Based on OpenAI publications
 
 - [Using GPT-6.2](https://developers.openai.com/api/docs/guides/latest-model/gpt-6.2-astra): behavior, prompts, reasoning effort, and migration.
-- [GPT-6.2 System Card](https://deploymentsafety.openai.com/gpt-6-2-astra-sol): omission of obstacles (22,28% for GPT-6.2 Astra and 11,09% for GPT-6 Astra, on programming tasks designed to provoke the error; this does not necessarily indicate the rate in real-world use) and the effect of the Codex prompt.
+- [GPT-6.2 System Card](https://deploymentsafety.openai.com/gpt-6-2-astra-sol): omission of obstacles (22.28% for GPT-6.2 Astra and 11.09% for GPT-6 Astra, on programming tasks designed to provoke the error; this does not necessarily indicate the rate in real-world use) and the effect of the Codex prompt.
 - [Rethinking skills and prompts for GPT-6 Astra](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra): written for the previous version; included here as a tip to test.
 
-Verified on 18/11/2026. The text in `prompts/` was written by us.
+Verified on November 18, 2026. The text in `prompts/` was written by us.
 
 ---
 
@@ -39,7 +39,7 @@ When migrating an integration, the official documentation says to check:
 | Item | What to do |
 |---|---|
 | Model | `gpt-6.2-astra` or `gpt-6.2-sol` |
-| Reasoning effort | start with `medium`; if you use `none` or `minimal`, switch to `low` |
+| Reasoning effort | for a new integration, start with `medium`; if you use `none` or `minimal`, switch to `low` |
 | Tools | use the Responses API |
 | Parameters | remove `temperature`, `top_p`, and `top_logprobs`; in Chat Completions, also remove `logprobs`; in Responses, remove `message.output_text.logprobs` from `include` |
 | Reasoning | don’t edit the start of the conversation between responses |
@@ -51,7 +51,7 @@ To repeat the test, from the project directory and with Codex CLI authenticated 
 teste/medir_bloqueio.sh 3 teste/nova-rodada
 ```
 
-The results from 18/11/2026 are in [`teste/PROVA.md`](teste/PROVA.md).
+The results from November 18, 2026 are in [`teste/PROVA.md`](teste/PROVA.md) (in Portuguese).
 
 ## The process, from start to finish
 

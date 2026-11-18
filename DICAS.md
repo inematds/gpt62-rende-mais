@@ -7,6 +7,8 @@ Coleção viva, com a mesma numeração do guia. Cada dica traz data, situação
 - **Problema oficial, texto nosso:** o problema está em documento da OpenAI; o texto é nosso e ainda não tem efeito medido.
 - **Testada:** mostrou efeito num teste nosso, registrado em `teste/`.
 
+**Termos:** API é a ligação direta entre um programa e o modelo. `AGENTS.md` é um arquivo de instruções para agentes num projeto. Skill é um conjunto de instruções salvo para uma tarefa. Tokens são as unidades de texto que o modelo processa e que entram na conta. `none`, `minimal`, `low` e `medium` são níveis de esforço. Issue é uma mensagem aberta no GitHub.
+
 ## Pedir melhor
 
 1. **Deixe ele ir até o fim.** Qualquer trabalho. Oficial, 18/11/2026. Diga o que ele resolve sozinho e quando deve parar. Texto: [`prompts/ir-ate-o-fim.md`](prompts/ir-ate-o-fim.md).
@@ -27,7 +29,7 @@ Coleção viva, com a mesma numeração do guia. Cada dica traz data, situação
 
 ## Como entra uma dica nova
 
-Abra uma [issue](https://github.com/inematds/gpt62-rende-mais/issues/new) com o que fez, em qual modelo e o que mudou. Ela entra aqui depois de conferida em documento oficial ou num teste registrado.
+Abra uma [issue](https://github.com/inematds/gpt62-rende-mais/issues/new?template=dica.md) com o que fez, em qual modelo e o que mudou. Ela entra aqui depois de conferida em documento oficial ou num teste registrado.
 
 ## Documentos oficiais
 
