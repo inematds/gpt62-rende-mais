@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![GPT-6.2 rende mais](guia/assets/banner-es.jpg)](https://inematds.github.io/gpt62-rende-mais/guia/es/)
+[![GPT-6.2 rinde más](guia/assets/banner-es.jpg)](https://inematds.github.io/gpt62-rende-mais/guia/es/)
 
 ## Qué es
 
